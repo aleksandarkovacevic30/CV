@@ -1,0 +1,348 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?xml-stylesheet type="text/xsl" href="templates/cv_neat.xsl" ?>
+<CV>
+<Contact>
+	<Name>Aleksandar Kovacevic</Name>
+	<Email>mail@aleksandarkovacevic.com</Email>
+	<www>www.aleksandarkovacevic.com</www>
+	<Photo>data/AleksandarKovacevic.png</Photo>
+</Contact>
+<Objective>Software Architect and consultant with strong coding background with focus on web technologies, java development, and business processes.</Objective>
+<Education>
+	<event>
+		<startDate>Oct 2001</startDate>
+		<endDate>Oct 2006</endDate>
+		<summary>Studies of Computer Science and Computer Engineering.</summary>
+		<Place>School of Electrical Engineering, University of Belgrade.</Place>
+<Url>http://www.etf.bg.ac.rs/index.php?lang=en</Url>
+		<title>Dipl. Ing., M.Sc. equivalent</title>
+	</event>
+	<event>
+		<startDate>Sep 1997</startDate>
+		<endDate>Jun 2001</endDate>
+		<summary></summary>
+		<Place>Mathematical Grammar School (school for gifted &amp; talented students), Belgrade.</Place>
+<Url>http://www.mg.edu.rs/en/onama-eng/identitet-eng</Url>
+		<title></title>
+	</event>	
+</Education>
+<Experience>
+	<event>
+		<id>kybeidos</id>
+		<startDate>Mar 2013</startDate>
+		<endDate>current</endDate>
+		<summary>IT Expertise Consultancy and Software Development, mainly focused on Front-end web development using technologies like Vaadin, Javascript, Spring, Java, etc. Along with software development, the market is being investigated, and prototypes are being implemented as proof of concept for new cutting-edge frameworks.</summary>
+		<Place>Kybeidos GmbH</Place>
+<Location>Heidelberg, Germany.</Location>
+<Url>http://www.kybeidos.de</Url>
+		<title>Senior IT Consultant</title>
+	</event>
+	<event>
+		<id>santander</id>
+		<startDate>Dec 2011</startDate>
+		<endDate>Feb 2013</endDate>
+		<summary>Java/Spring Framework based Front-end development of the web applications for consumer finance based systems. Different financial credit loan products were maintained/implemented such as fixed term loans and revolving credit. In order to add on flexibility and smoother maintenance/development of complicated dynamic application forms and contracts, a popular XSL transformations and Apache FOP has been used. Work day consists of development long-term project of replacing old web applications to new ones using newest technologies, implementing short-term small changes and solving incidents/bug-fixes reported on current live web applications.</summary>
+		<Place>Santander Consumer Finance Benelux</Place>
+<Location>Utrecht, the Netherlands.</Location>
+		<Url>http://www.santander.nl</Url>
+		<title>Senior Front-End Java Developer</title>
+	</event>	
+	<event>
+		<id>rwth</id>
+		<startDate>Mar 2007</startDate>
+		<endDate>Sep 2011</endDate>
+		<summary>Worked as a Researcher in two topics; Service Discovery and Programming models in Wireless Sensor Networks, and Spectrum Occupancy Analysis for purpose of Dynamic Spectrum Access. Apart from research, I developed a numerous applications in popular academic platforms for Sensor Networks (TinyOS &amp; MantisOS). Also, further enhanced the existing Spectrum Sensing Control &amp; Data Management System (using Matlab &amp; Instrument Control Box library). Published 6 publication in highly ranked conferences, and conducted a numerous amount of practical laboratories that introduce students to wireless sensor networks.</summary>
+		<Place>Institute for Networked Systems (INETS), RWTH Aachen University</Place>
+<Location>Aachen, Germany.</Location>
+		<Url>http://www.inets.rwth-aachen.de/</Url>
+		<title>Research &amp; Teaching Assistant</title>
+	</event>
+	<event>
+		<id>elsys</id>
+		<startDate>Dec 2006</startDate>
+		<endDate></endDate>
+		<summary>Introduced to framework used for testing the microcontrollers from Texas Instruments.</summary>
+		<Place>Elsys Eastern Europe</Place>
+<Location>Belgrade, Serbia.</Location>
+		<Url>http://www.elsys-eastern.com</Url>
+		<title>Junior Test Developer</title>
+	</event>
+</Experience>
+<Skills>
+  <Category name="General Programming Skills">
+	<Skill Name="C" Level="Expert" Url="http://en.wikipedia.org/wiki/C_%28programming_language%29">
+		<usedIn>rwth</usedIn>
+	</Skill>
+	<Skill Name="C#" Level="Expert" Url="http://en.wikipedia.org/wiki/C_Sharp_%28programming_language%29">
+		<usedIn>rwth</usedIn>
+	</Skill>
+	<Skill Name="Java" Level="Expert" Comment="Oracle Certified" Url="http://en.wikipedia.org/wiki/Java_%28programming_language%29">
+		<usedIn>santander</usedIn>
+		<usedIn>rwth</usedIn>
+		<usedIn>kybeidos</usedIn>
+	</Skill>
+	<Skill Name="MATLAB" Level="Expert" Url="http://en.wikipedia.org/wiki/MATLAB">
+		<usedIn>rwth</usedIn>
+	</Skill>
+	<Skill Name="Prolog" Level="Intermediate" Url="http://en.wikipedia.org/wiki/Prolog">
+	</Skill>
+	<Skill Name="Asm86" Level="Intermediate" Url="http://en.wikipedia.org/wiki/Assembly_language" >
+		<usedIn>rwth</usedIn>
+	</Skill>
+	<Skill Name="Perl" Level="Intermediate"  Url="http://en.wikipedia.org/wiki/Perl">
+	</Skill>
+	<Skill Name="Python" Level="Intermediate" Url="http://en.wikipedia.org/wiki/Python_%28programming_language%29" >
+		<usedIn>rwth</usedIn>
+	</Skill>
+	<Skill Name="LaTeX" Level="Intermediate" Url="http://en.wikipedia.org/wiki/LaTeX" >
+		<usedIn>rwth</usedIn>
+	</Skill>
+      </Category>
+      <Category name="Web Development / SOA / ESB">
+	<Skill Name="Spring-Core" Url="http://projects.spring.io/spring-framework/" >
+		<usedIn>santander</usedIn>
+		<usedIn>kybeidos</usedIn>
+	</Skill>
+	<Skill Name="*-Data JPA" Url="http://projects.spring.io/spring-data-jpa/" >
+		<usedIn>santander</usedIn>
+		<usedIn>kybeidos</usedIn>
+	</Skill>
+	<Skill Name="*-Data NEO4J" Url="http://projects.spring.io/spring-data-neo4j/" >
+		<usedIn>kybeidos</usedIn>
+	</Skill>
+	<Skill Name="*-Data REST" Url="http://projects.spring.io/spring-data-rest/" >
+		<usedIn>santander</usedIn>
+		<usedIn>kybeidos</usedIn>
+	</Skill>
+	<Skill Name="*-Security" Url="http://projects.spring.io/spring-security/" >
+		<usedIn>santander</usedIn>
+	</Skill>
+	<Skill Name="*-Batch" Url="http://projects.spring.io/spring-batch/" >
+		<usedIn>santander</usedIn>
+	</Skill>
+	<Skill Name="*-WS" newLine="" Url="http://projects.spring.io/spring-ws/" >
+		<usedIn>santander</usedIn>
+	</Skill>
+	<Skill Name="Vaadin" Url="http://en.wikipedia.org/wiki/Vaadin">	
+		<usedIn>kybeidos</usedIn>
+	</Skill>
+	<Skill Name="GWT" Url="http://www.gwtproject.org/?csw=1">
+		<usedIn>kybeidos</usedIn>
+	</Skill>
+	<Skill Name="PHP" newLine="" Url="http://en.wikipedia.org/wiki/PHP" >
+		<usedIn>santander</usedIn>
+		<usedIn>kybeidos</usedIn>
+	</Skill>
+	<Skill Name="HTML" Url="http://en.wikipedia.org/wiki/HTML5">
+		<usedIn>santander</usedIn>
+		<usedIn>kybeidos</usedIn>
+	</Skill>
+	<Skill Name="CSS" Url="http://en.wikipedia.org/wiki/CSS">
+		<usedIn>santander</usedIn>
+		<usedIn>kybeidos</usedIn>
+	</Skill>
+	<Skill Name="Javascript (JS)" Url="http://en.wikipedia.org/wiki/Javascript">
+		<usedIn>santander</usedIn>
+		<usedIn>kybeidos</usedIn>
+	</Skill>
+	<Skill Name="jQuery" Url="http://en.wikipedia.org/wiki/Jquery">
+		<usedIn>santander</usedIn>
+		<usedIn>kybeidos</usedIn>
+	</Skill>
+	<Skill Name="jQuery UI" newLine="" Url="http://en.wikipedia.org/wiki/JQuery_UI" >
+		<usedIn>santander</usedIn>
+		<usedIn>kybeidos</usedIn>
+	</Skill>
+	<Skill Name="AngularJS" Url="https://angularjs.org/" >
+		<usedIn>santander</usedIn>
+	</Skill>
+	<Skill Name="D3.js" Url="http://d3js.org/" >
+	</Skill>
+	<Skill Name="Modernizr" newLine="" Url="http://modernizr.com/" >
+		<usedIn>santander</usedIn>
+	</Skill>
+	<Skill Name="XSLT" Url="http://en.wikipedia.org/wiki/XSLT">
+		<usedIn>santander</usedIn>
+	</Skill>
+	<Skill Name="XSD" Url="http://en.wikipedia.org/wiki/XSD">
+		<usedIn>santander</usedIn>
+	</Skill>
+	<Skill Name="XML" Url="http://en.wikipedia.org/wiki/XML">
+		<usedIn>santander</usedIn>
+		<usedIn>kybeidos</usedIn>
+	</Skill>
+	<Skill Name="WSDL" Url="http://en.wikipedia.org/wiki/WSDL">
+		<usedIn>santander</usedIn>
+		<usedIn>kybeidos</usedIn>
+	</Skill>
+	<Skill Name="FOP" Url="http://xmlgraphics.apache.org/fop/">
+		<usedIn>santander</usedIn>
+	</Skill>
+	<Skill Name="Velocity" Url="http://velocity.apache.org/"  newLine="">
+		<usedIn>santander</usedIn>
+	</Skill>
+	<Skill Name="Websphere AS" Url="http://www-03.ibm.com/software/products/en/appserv-was"> 
+		<usedIn>santander</usedIn>
+		<usedIn>kybeidos</usedIn>
+	</Skill>
+	<Skill Name="JBoss" Url="http://jbossas.jboss.org/"> 
+		<usedIn>kybeidos</usedIn>
+	</Skill>
+	<Skill Name="Jetty 9" newLine="" Url="http://www.eclipse.org/jetty/"> 
+		<usedIn>kybeidos</usedIn>
+	</Skill>
+	<Skill Name="WSO2 ESB" Url="http://wso2.com/products/enterprise-service-bus/" >
+		<usedIn>santander</usedIn>
+		<usedIn>kybeidos</usedIn>
+	</Skill>
+	<Skill Name="SwitchYard" Url="http://www.jboss.org/switchyard">
+		<usedIn>kybeidos</usedIn>
+	</Skill>
+	<Skill Name="Mule" Url="http://en.wikipedia.org/wiki/Mule_%28software%29" >
+		<usedIn>santander</usedIn>
+		<usedIn>kybeidos</usedIn>
+	</Skill>
+ </Category><!--fix the links-->
+ <Category name="Databases">
+	<Skill Name="SQL" Url="http://en.wikipedia.org/wiki/SQL" >
+		<usedIn>santander</usedIn>
+		<usedIn>kybeidos</usedIn>
+	</Skill>
+	<Skill Name="SAS Base" Level="Intermediate" Comment="SAS Certified" Url="http://en.wikipedia.org/wiki/SAS_(software)" newLine="">
+		<usedIn>kybeidos</usedIn>
+	</Skill>
+	<Skill Name="mySQL" Url="http://www.mysql.com/" >
+	</Skill>
+	<Skill Name="MS SQL" Url="http://sh.wikipedia.org/wiki/Microsoft_SQL_Server" >
+		<usedIn>santander</usedIn>
+	</Skill>
+	<Skill Name="Neo4J" Url="http://neo4j.com/" >
+		<usedIn>kybeidos</usedIn>
+	</Skill>
+
+      </Category>
+      <Category name="Tools">
+	<!--	<Skill Name="JFlex" Url=""/>-->
+	  <!--	<Skill Name="Java CUP" />-->
+	<Skill Name="Eclipse" Url="http://en.wikipedia.org/wiki/Eclipse_%28software%29" >
+		<usedIn>santander</usedIn>
+		<usedIn>kybeidos</usedIn>
+	</Skill>
+	<Skill Name="Subversion (SVN)" >
+		<usedIn>santander</usedIn>
+		<usedIn>kybeidos</usedIn>
+		<usedIn>rwth</usedIn>
+	</Skill>
+	<Skill Name="Mercurial (hg)" Url="http://en.wikipedia.org/wiki/Mercurial">
+	</Skill>
+	<Skill Name="GIT" Url="http://en.wikipedia.org/wiki/Git_%28software%29">
+		<usedIn>kybeidos</usedIn>
+	</Skill>
+	<Skill Name="GNU Debugger (GDB)" Url="http://en.wikipedia.org/wiki/GDB" >
+		<usedIn>rwth</usedIn>
+	</Skill>
+	<Skill Name="JUnit" >
+		<usedIn>rwth</usedIn>
+		<usedIn>santander</usedIn>
+		<usedIn>kybeidos</usedIn>
+	</Skill>
+      </Category>      
+      <Category name="Business Process Modelling">      
+	<Skill Name="BPMN" Url="http://en.wikipedia.org/wiki/Business_Process_Model_and_Notation" >
+		<usedIn>kybeidos</usedIn>
+	</Skill>
+	<Skill Name="jBPM" Url="http://www.jboss.org/jbpm">
+		<usedIn>kybeidos</usedIn>
+	</Skill>
+	<Skill Name="Camunda" Url="http://www.camunda.com/" newLine="">
+		<usedIn>kybeidos</usedIn>
+	</Skill>
+      </Category>
+      <Category name="Wireless Sensor Networks">
+	<Skill Name="nesC (TinyOS)" Url="http://www.tinyos.net/" >
+		<usedIn>rwth</usedIn>
+	</Skill>
+	<Skill Name="Mantis C (MantisOS)" Url="http://mantisos.org/index/tiki-index.php%3Fpage=HomePage.html">
+		<usedIn>rwth</usedIn>
+	</Skill>
+	<Skill Name="TelosB" Url="http://www.willow.co.uk/html/telosb_mote_platform.php">
+		<usedIn>rwth</usedIn>
+	</Skill>
+	<Skill Name="MicaZ" Url="http://tinyos.stanford.edu/tinyos-wiki/index.php/MICAz">
+		<usedIn>rwth</usedIn>
+	</Skill>
+	<Skill Name="MSP430" Url="http://en.wikipedia.org/wiki/TI_MSP430">
+		<usedIn>rwth</usedIn>
+	</Skill>
+      </Category>
+      
+</Skills>
+<Awards>
+	<event>
+		<startDate>1997</startDate>
+		<endDate>1997</endDate>
+		<summary>Awarded as the best mathematician of generation in primary school.</summary>
+		<Place></Place>
+		<title></title>
+	</event>
+	<event>
+		<startDate>1994</startDate>
+		<endDate>1997</endDate>
+		<summary>Participated in competitions in mathematic and physics with significant results;2<sup>nd</sup> place in physics, and 3<sup>rd</sup> place in mathematics regional competition</summary>
+		<Place></Place>
+		<title></title>
+	</event>
+
+</Awards>
+<Activities>
+	<event>
+		<startDate>2008</startDate>
+		<endDate></endDate>
+		<summary>Learning acoustic and bass guitar.</summary>
+		<Place></Place>
+		<title></title>
+	</event>
+	<event>
+		<startDate>2004</startDate>
+		<endDate>2006</endDate>
+		<summary>Attended school for latino and ballroom dance.Passed for gold category in the Dance Unity of Belgrade.</summary>
+		<Place></Place>
+		<title></title>
+	</event>
+	<event>
+		<startDate>1991</startDate>
+		<endDate>1997</endDate>
+		<summary>Attended Music School for violin, Belgrade.</summary>
+		<Place></Place>
+		<title></title>
+	</event>
+	<event>
+		<startDate>2000</startDate>
+		<endDate>2002</endDate>
+		<summary>Attended Music School for solo singing, Belgrade.</summary>
+		<Place></Place>
+		<title></title>
+	</event>
+	<event>
+		<startDate>1997</startDate>
+		<endDate>2001</endDate>
+		<summary>Member of the greatest and most successful Serbian Academic Choir "Branko Krsmanovic," Belgrade. Performed at concerts in several European countries.</summary>
+		<Place></Place>
+		<title></title>
+	</event>
+	<event>
+		<startDate></startDate>
+		<endDate></endDate>
+		<summary>Great interest in psychology, history, and music. Sports: basketball, squash and hiking.</summary>
+		<Place></Place>
+		<title></title>
+	</event>	
+</Activities>
+<Languages>
+	<Language level="Mother Tongue">Serbian</Language>
+	<Language level="Fluent">English</Language>
+	<Language level="Good Command">German</Language>
+	<Language level="Basic Understanding and Speaking">Dutch</Language>
+	<Language level="Basic Knowledge">Russian</Language>
+</Languages>
+</CV>

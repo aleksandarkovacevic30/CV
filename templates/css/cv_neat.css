@@ -1,0 +1,243 @@
+* { 
+	margin: 0; 
+	padding: 0; 
+	}
+body { 
+  	/*text-shadow:5px 5px 5px #CCC;
+*/
+	font: 14px Helvetica; 
+	line-height: 24px; 
+	background: #CCCCCC; 
+	margin: 40px;
+	}
+.clear { clear: both; }
+div.space { padding:10px}
+div.space10 { padding:10px;clear:both;}
+div.space1 { padding:1px;clear:both;}
+div.space5 { padding:5px;clear:both;}
+
+#page-wrap { 
+	width: 800px; 
+	 margin: 0px auto 0px;
+	 padding:100px 40px 40px 40px;
+	-moz-box-shadow:    3px 3px 5px 6px #bbb;
+	-webkit-box-shadow: 3px 3px 5px 6px #bbb;
+	box-shadow:         3px 3px 5px 6px #bbb;
+	background: #FFFFFF;
+	border:1px solid #999;
+	}
+#pic { 
+	float: right; 
+	margin: -30px 20px 0 0; 
+	}
+h2.fn{
+	font-weight: bold;
+	margin: 0 0 1px 0; 
+	padding: 0 0 1px 0; 
+	font-size: 18px; 
+	border-bottom: 1px solid #999; 
+	}
+div.contact{
+	float:left;
+}
+div h1 ,div p.header{
+  margin-left:40px;
+}
+
+p.header div.label{
+  margin-left:10px;
+/*  width:90%;*/
+/*  float:left;*/
+}
+p.header a.value{
+  margin-left:5px;
+/*  width:80%;*/
+text-align: right;
+/*  float:left;*/
+}
+h1 { 
+	margin: 0 0 16px 0; 
+	padding: 0 0 16px 0; 
+	font-size: 20px; 
+	font-weight: bold; 
+/*	letter-spacing: -2px; */
+	border-bottom: 1px solid #999; 
+	}
+h2 { 
+	font-size: 18	px; 
+	margin: 0 0 6px 0; 
+	position: relative; 
+	}
+h2 span { 
+	position: absolute; 
+	bottom: 0; 
+	right: 0; 
+	font-style: italic; 
+	font-size: 12px; 
+	color: #999; 
+	font-weight: normal; }
+p { 
+	margin: 0 0 10px 0; }
+a { 
+	color: #000;
+	text-decoration: none; 
+	border-bottom: 1px dotted #999; 
+	}
+a:hover { 
+	border-bottom-style: solid; 
+	color: black; }
+ul { 
+	margin: 0 0 32px 17px; 
+	}
+#objective { 
+	width: 500px; 
+	float: left; 
+	}
+#objective p { 
+	font-style: italic; 
+	color: #666; 
+  margin-left:10px;
+}
+a.summary {
+  	font-style: italic; 
+	font-size: 12px; 
+}
+div.summary{
+  	font-style: italic; 
+	font-size: 12px;
+	display:none;	
+}
+div.hidden{
+  display:none;
+}
+dt { 
+	font-style: italic; 
+	font-weight: bold; 
+	font-size: 14px; 
+	text-align: right; 
+	padding: 0 6px 0 0; 
+	float: left; 
+/*	height: 100px; 
+	width: 120px; 
+
+*/
+  }
+dd { 
+	width: 600px; 
+	float: right; 
+	padding-left:10px;
+	border-left: 1px solid #999;
+}
+dd.clear { 
+	float: none; 
+	margin: 0; 
+	border:none;
+}
+dd.space { 
+	float: none; 
+	margin: 0; 
+	height:15px;
+	border:none;
+}
+.skill{
+ /* text-shadow:1px 1px 1px #3333CC;
+*/
+  margin:1px 2px 1px 2px;
+/* box-shadow:inset 0 0 5px #BBBBBB;
+  -moz-box-shadow:inset 0 0 5px #BBBBBB;*/
+  padding:1px 2px 1px 2px;
+  float:left;
+  /*
+  background:#6699FF;
+
+  border-style:solid;
+  border-width:1px;
+  font-weight: bold;*/ 
+  font-size: 14px; 
+  
+}
+.skill.category {
+  border-style:solid;
+  border-width:1px;
+}
+.categorySkillLine{
+  margin-left:15px;
+}
+
+.language .name {
+float:left;
+margin-left:15px;
+margin-right:5px;
+}
+.language .level{
+font-style:italic;}
+.activities {
+margin-left:15px;
+}
+.experienceplace {
+float:left;
+margin-right:5px;
+}
+.experiencelocation {
+}
+@media all {
+	.page-break	{ display: none; }
+}
+
+@media print {
+	.page-break	{ display: block; page-break-before: always; }
+}
+.post-it a {
+	color:#eee;
+}
+
+.small {
+	font-size:12px; 
+padding:2px;
+margin:3px;
+}
+
+.normal {
+	font-size:15px; 
+padding:5px;
+}
+
+.post-it {
+/*font-family: 'Gloria Hallelujah', cursive; */
+color: #eee;
+display:inline-block;
+/*width:200px; */
+
+/*-moz-transform: rotate(7deg);
+-webkit-transform: rotate(7deg);
+-o-transform: rotate(7deg);
+-ms-transform: rotate(7deg);
+transform: rotate(7deg);
+*/
+box-shadow: 0px 1px 2px rgba(3,3,3,0.7);
+-moz-box-shadow: 0px 1px 2px rgba(3,3,3,0.7);
+-webkit-box-shadow: 0px 1px 2px rgba(3,3,3,0.7);
+filter: alpha(opacity=80);
+filter: progid:DXImageTransform.Microsoft.Alpha(opacity=80);
+   opacity:0.8;
+   -moz-opacity: 0.80; 
+
+}
+.color-1{
+	background:#2980b9;
+}
+.color-2{
+	background:#d35400;
+}
+.color-3{
+	background:#34495e;
+}
+.color-4{
+	background:#16a085;
+}
+.color-5{
+	background:#7f8c8d;
+}
+.color-6{
+	background:#c0392b;
+}
