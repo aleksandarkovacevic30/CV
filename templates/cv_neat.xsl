@@ -47,6 +47,17 @@
                  <div class="label">Url: <a class="value">
 				<xsl:attribute name="href">http://<xsl:value-of select='Contact/www'/></xsl:attribute>
 				<xsl:value-of select='Contact/www'/></a></div>
+                <div class="businessCard">
+				 <xsl:for-each select="Contact/businessCard">
+				 	<a class="value" target="_blank">
+					<xsl:attribute name="href">http://<xsl:value-of select='link'/></xsl:attribute>
+					<img>
+					<xsl:attribute name="src">templates/img/<xsl:value-of select='id'/>-icon.png</xsl:attribute>
+					<xsl:attribute name="alt"><xsl:value-of select='id'/></xsl:attribute>
+					</img>
+					</a>
+				</xsl:for-each>	
+				</div>
 
             </p>
         </div>

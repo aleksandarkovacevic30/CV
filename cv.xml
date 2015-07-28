@@ -6,6 +6,18 @@
 	<Email>mail@aleksandarkovacevic.com</Email>
 	<www>www.aleksandarkovacevic.com</www>
 	<Photo>data/AleksandarKovacevic.png</Photo>
+	<businessCard>
+		<id>linkedin</id>
+		<link>de.linkedin.com/in/aleksandarkovacevic</link>
+	</businessCard>
+	<businessCard>
+		<id>github</id>
+		<link>github.com/renesto</link>
+	</businessCard>
+	<businessCard>
+		<id>blogspot</id>
+		<link>renesto.blogspot.com</link>
+	</businessCard>
 </Contact>
 <Objective>Software Architect and consultant with strong coding background with focus on web technologies, java development, and business processes.</Objective>
 <Education>
@@ -211,6 +223,18 @@
 	<Skill Name="SAS Base" Level="Intermediate" Comment="SAS Certified" Url="http://en.wikipedia.org/wiki/SAS_(software)" newLine="">
 		<usedIn>kybeidos</usedIn>
 	</Skill>
+	<Skill Name="SAS Enterprise Guide" Level="Intermediate" Url="http://www.sas.com/en_us/software/enterprise-guide.html">
+		<usedIn>kybeidos</usedIn>
+	</Skill>
+	<Skill Name="SAS Data Integration Studio" Level="Intermediate" Url="http://www.sas.com/en_us/software/data-management.html">
+		<usedIn>kybeidos</usedIn>
+	</Skill>
+	<Skill Name="SAS OLAP Cube Studio" Level="Intermediate" Url="http://www.sas.com/technologies/bi/tourext/olapstudio_itour_flash.html">
+		<usedIn>kybeidos</usedIn>
+	</Skill>
+	<Skill Name="SAS Visual Analytics" Level="Intermediate" Url="http://www.sas.com/de_at/software/business-intelligence/visual-analytics.html"  newLine="">
+		<usedIn>kybeidos</usedIn>
+	</Skill>	 
 	<Skill Name="mySQL" Url="http://www.mysql.com/" >
 	</Skill>
 	<Skill Name="MS SQL" Url="http://sh.wikipedia.org/wiki/Microsoft_SQL_Server" >
